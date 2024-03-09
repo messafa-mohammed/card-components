@@ -1,14 +1,14 @@
 import './App.css'
 import Card from './Card'
-
+import Student from './Student/Student'
 function App() {
 
   return (
     <>
-     <Card/>
-     <Card/>
-     <Card/>
-     <Card/>
+        <Student first="Messafa" last="mohammed" music={true}/>
+        <Student first="Hisoka " last="Morow"/>
+        <Student first="Piuma" last="Nera"/>
+        
     </>
   )
 }
